@@ -17,3 +17,4 @@ Application2 include 4 file: two database('Volcano.txt', 'World.json'), html fil
 4) Creating two FeatureGroup for second and thrid layer(need for more comfortable operating on the map)
    Add 'LayerControl' function for divede map on layer
    
+5) Save web map in "Map1.html".
