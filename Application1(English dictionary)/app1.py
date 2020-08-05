@@ -1,7 +1,11 @@
 import json
 from difflib import get_close_matches
 
-data = json.load(open("data.json"))
+user_input = input("Enter path to dictionary database:")
+try:
+    data = json.load(open(user_input))
+except FileNotFoundError:
+    print ("Wrong path to dictionary database")
 
 def translate(w):
     w = w.lower()
